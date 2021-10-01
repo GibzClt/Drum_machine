@@ -36,7 +36,7 @@ function DrumDisplay({text}){
           type="range" 
           min={0} 
           max={1} 
-          value={volume} 
+          value={volume}
           step={0.05} 
           onChange={(e)=>setVolume(e.target.value)} />
       </div>

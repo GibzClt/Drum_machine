@@ -9,7 +9,7 @@ export const VolumeContext = React.createContext();
 function DrumMachine(){
   const [power, setPower] = useState(true);
   const[text, setText]= useState("");
-  const [volume, setVolume] = useState(1);
+  const [volume, setVolume] = useState(0.7);
   
   return(
     <div id="drum-machine">
